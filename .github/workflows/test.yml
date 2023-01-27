@@ -3,6 +3,9 @@ on:
   
 jobs:
   github-example-tags:
+    name: Build Image
+    runs-on: ubuntu-latest
+    
     steps:
      - name: GitHub Tag Name example
        run: |
